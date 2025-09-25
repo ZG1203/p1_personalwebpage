@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>ZG Personal portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- navigation bar with two parts -->
+        <nav>
+            <div class="nav-left">
+                <div class="nav-item">
+                    <P>Zheng Ge  |</p>
+                </div>
+                <div class="nav-item">
+                    <P>Business Intelligence  |</p>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-item">
+                    <a href="#section-about" class="nav-link">About</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#section-project" class="nav-link">Project</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#section-contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+<!-- page top and sections -->
+        <main>
+            <div id="pagetop">
+                <img src="./image/profile_photo.jpg" alt="My photo">
+                <h1>Welcome to my page</h1>
+            </div>
+            
+            <!-- about section in the paoe -->
+            <article id="section-about">
+                <h2 class="sectionheading"><b>About me</b></h2>
+                <p>I'm a dynamic and versatile professional with a robust blend of project management, 
+                    business management, and data analysis expertise. Having worked across diverse industries, 
+                    I am adept at navigating challenges and adapting to evolving business landscapes.</p>
+                <p>I joined a small business after completed my MBA, overseeing operations, finance, HR, 
+                    and marketing—from strategic planning to hands-on execution. Leveraging my prior experience 
+                    in the automotive industry, I introduced efficiency-driven practices to this construction consultancy, 
+                    optimizing project workflows and resource allocation.</p>
+                <p>Recognizing that data is the backbone of operational excellence, I proactively enrolled in a 
+                    Data Analysis Apprenticeship to sharpen my analytical skills. Since then, I’ve implemented data-driven strategies 
+                    to identify bottlenecks, reduce costs, and enhance decision-making across the business.</p>
+                <p>I then transitioned into a Business Intelligence Analyst role at a larger organization, 
+                    where I collaborated with cross-functional stakeholders to track KPIs, identify operational inefficiencies, 
+                    and implement data-backed improvements.</p>
+                <p>I'm always looking to connect with inspiring people, learn about new projects,
+                     and explore potential roles. Email me at: <a href="mailto:abc@efg.com">abc@efg.com</a> or call me at <a href="tel:1234567890">12-3456-7890</a></p>
+            </article>
+
+            <!-- project section in the page -->
+            <article id="section-project">
+                <h2 class="sectionheading"><b>My Projects</b></h2>
+                <section id="projectgoogle">
+                    <h3 class="projectheading">Dashboard for Google Adwords Analysis</h3>
+                    <div class="projectgoogleimage"> 
+                        <img src="./image/project_google-ads.jpg" alt="This is a dashboard created using PowerBI">
+                    </div>
+                    <div class="projectdashboard">
+                        <p>A company uses Google AdWords to generate leads for its service. This project is to analyse Google AdWords spend; 
+                            enquiry level and project won in order to understand the effectiveness of Google AdWords. </p>
+                        <p>To understand the effectiveness of Google AdWords, the following aspects are identified that can reflect 
+                                the effectiveness in data term: </p>
+                        <div>
+                            <ul class="listcontainer-ul">
+                                <li>ROI-return of investment. This is the ratio of new profit based on the cost spent to achieve that profit. 
+                                    Total value of project won through Google AdWords and cost of delivering those project, and Google AdWords cost 
+                                    data are needed to carry out this analysis </li>
+                                <li>Enquiry level vs Google AdWords spend - analyse if there is any trend or pattern</li>
+                                <li>Enquiry level vs Google AdWords keywords click - analyse if there is any trend or pattern</li>
+                                </ul>
+                        </div>
+                        <div >
+                            <P>This project involves the following tasks:</p>
+                                <ol class="listcontainer-ol">
+                                    <li>Identify data sources</li>
+                                    <li>Data modelling</li>
+                                    <li>Data visualization</li>
+                                    <li>Analyse result</li>
+                                </ol>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projectapp">
+                    <h3 class="projectheading">Equipment Issue Report and Management App</h3>
+                    <p>The company's reliance on shared testing equipment for client services is currently hampered by an informal 
+                        and inefficient fault-reporting process. The existing method, which include a mixture of paper logs, spreadsheets, 
+                        and verbal communication, lacks structure, accessibility, and accountability. This leads to critical issues including inconsistent Data, Lack of Visibility and Operational Friction.</p>
+                    <p> This Equipment Issue Report and Management App is developed to streamlines the entire process of reporting, 
+                        tracking and managing testing equipment faults. </p>
+                    <p>The solution involves using the following tools:</p>
+                        <ul>
+                            <li>Excel</li>
+                            <li>OneDrive</li>
+                            <li>PowerApps</li>
+                            <li>PowerBI</li>
+                        </ul>
+                    <div class="projectappimage"> 
+                        <img src="./image/project_powerapp-2.jpg" alt="Tools used to create the solution">
+                        <img src="./image/project_powerapp-1.jpg" alt="Screenshot of app user interface">
+                    </div>
+                </section>
+            </article>
+
+             <!-- contact section in the page -->
+            <div id="section-contact">
+                <h2 class="sectionheading"><b>Contact Me</b></h2>
+                <form class="contactform">
+                    <label>First name:</label><br>
+                    <input type="text" required><br>
+                    <label>Last name:</label><br>
+                    <input type="text" required><br>
+                    <label>Email Address:</label><br>
+                    <input type="email" required><br>
+                    <label>Message:</label><br>
+                    <textarea row="10"placeholder="Leave your message here"></textarea><br><br>
+                    <label><b>Please also fill information below if you want a callback</b></label><br>
+                    <label>Phone Number:</label><br>
+                    <input type="tel" placeholder="12-3456-7890" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"><br>
+                    <small>Format: 12-3456-7890</small><br>
+                    <label>Choose a time</label><br>
+                    <input type="datetime-local"/><br><br>
+                    <input class="submitbutton " type="submit" value="Submit">
+                </form>
+            </div>               
+        </main>
+        
+<!-- webpager footer -->
+        <footer>
+            <a class="footertext" href="#pagetop">Back to Top</a>
+            <p class="footertext">©2025 Zheng Ge. All rights reserved.</p>
+            <a class="footertext" href="">Privacy Notice</a></p>
+        </footer>
+    </body>
+
+
+</html>

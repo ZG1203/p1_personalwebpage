@@ -1,0 +1,251 @@
+/*style background color, font size, and font family for whole webpage*/
+* {
+    background-color: #FEFAE0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    scroll-padding: 75px;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/*style page navigation bar*/
+nav {
+    background: #CCD5AE;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    top:0;
+}
+
+
+.nav-left, .nav-right {
+    background: #CCD5AE;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+    position: relative;
+    background: #CCD5AE;
+}
+
+.nav-item p{
+    color: #000000;
+    font-weight: 20px;
+    position: relative;
+    background: #CCD5AE;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 20px;
+    position: relative;
+    background: #CCD5AE;
+    font-weight: bold;
+    overflow: auto;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+/* style pagetop */
+
+#pagetop{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#pagetop img {
+    width: 30%;
+    margin: 15px;
+    mix-blend-mode: multiply;
+}
+
+#pagetop h1{
+    width:70%;
+    margin: 15px;
+    text-align: center;
+    font-size:50px;
+    font-family:cursive, sans-serif;
+    overflow: auto;
+}
+/* style section titles about, project, contact*/
+.sectionheading {
+    background-color:#D4A373;
+    padding: 10px;
+    font-size:20px;
+    font-family:cursive, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sectionheading b{
+    margin: 15px;
+    text-align: justify;
+    background-color:#D4A373;
+    font-size:20px;
+    font-family:cursive, sans-serif; 
+    object-fit:contain;
+}
+/* style about me section*/
+
+#section-about p {
+    margin: 10px;
+    text-align: justify;
+    line-height: 120%;
+}
+
+/* style project section */
+#projectgoogle {
+    overflow: hidden;
+}
+
+.projectheading {
+    background-color:#FAEDCD;
+    padding: 10px;
+    vertical-align: middle;
+    font-size:15px;
+}
+
+/* project google adverts */
+.projectgoogleimage {
+    margin: 10px;
+    display: block;
+    float: left;
+    width: 40%;
+}
+
+.projectgoogleimage img {
+    border: 2px solid #D4A373;
+    width: 100%;
+}
+
+.projectdashboard {
+    display: block;
+    overflow: hidden;
+}
+
+.projectdashboard p{
+    margin: 10px;
+    text-align: justify;
+    line-height: 120%;
+}
+
+.listcontainer-ul { 
+    margin: 10px;
+    list-style-position: inside;
+    list-style-type: disc;
+    line-height: 120%;
+    padding-left: 20px;
+}
+
+.listcontainer-ul li {
+    text-indent: -20px;
+}  
+
+
+.listcontainer-ol {
+    margin: 10px;
+    list-style-position: inside;
+    list-style-type: decimal;
+    line-height: 120%;
+}
+
+/* project PowerApp*/
+.projectappimage {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.projectappimage img {
+    display: block;
+    width: 50%;
+    border: 2px solid #D4A373;
+}
+
+#projectapp p {
+    margin: 10px;
+    text-align: justify;
+    line-height: 120%;
+}
+
+#projectapp ul {
+    margin: 10px;
+    line-height: 120%;
+    list-style-position: inside;
+}
+
+/* style contact me section - to complete*/
+.contactform {
+    background-color:#FAEDCD;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contactform label {
+    background-color: #FAEDCD;
+}
+
+.contactform label b{
+    background-color: #FAEDCD;
+}
+
+.contactform small {
+    background-color: #FAEDCD;
+    font-size: smaller;
+    color: #7e7b7b;
+}
+
+.submitbutton {
+    background-color: #CCD5AE;
+    border: none;
+    color: #000000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.submitbutton:hover {
+    background-color: #272323;
+    color: #D4A373;
+}
+
+/* style footer*/
+footer{
+    background-color:#CCD5AE;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footertext {
+    text-decoration: none;
+    background-color: #CCD5AE;
+    display: inline-block;
+    text-align:center;
+    height: 100%;
+    padding: 10px;
+    font-weight: bold;
+    color:#000000;
+}
